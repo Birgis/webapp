@@ -3,5 +3,75 @@
 {% block title %}Index{% endblock %}
 
 {% block content %}
-Index page
+<h1>Welcome to My Flask Website</h1>
+
+<p class="lead">This is a demonstration of various typography elements styled by Tailwind Typography plugin.</p>
+
+<h2>Featured Quote</h2>
+<blockquote>
+    "The science of operations, as derived from mathematics more especially, is a science of itself, and has its own abstract truth and value."
+    <cite>— Ada Lovelace</cite>
+</blockquote>
+
+<h3>Why Learn Programming?</h3>
+<p>Programming offers numerous benefits for personal and professional growth. Here are some key reasons:</p>
+
+<ul>
+    <li>Problem-solving skills development</li>
+    <li>Career opportunities in tech</li>
+    <li>Ability to build your own tools</li>
+    <li>Understanding modern technology</li>
+</ul>
+
+<h3>Learning Path</h3>
+<ol>
+    <li>Basic syntax and concepts</li>
+    <li>Data structures and algorithms</li>
+    <li>Web development fundamentals</li>
+    <li>Building projects</li>
+</ol>
+
+<h2>Popular Programming Languages</h2>
+<table>
+    <thead>
+        <tr>
+            <th>Language</th>
+            <th>Primary Use</th>
+            <th>Difficulty</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Python</td>
+            <td>General Purpose, AI</td>
+            <td>Easy</td>
+        </tr>
+        <tr>
+            <td>JavaScript</td>
+            <td>Web Development</td>
+            <td>Medium</td>
+        </tr>
+        <tr>
+            <td>Rust</td>
+            <td>Systems Programming</td>
+            <td>Hard</td>
+        </tr>
+    </tbody>
+</table>
+
+<h2>Code Example</h2>
+<pre><code class="language-python">def hello_world():
+    print("Hello, World!")
+    return True</code></pre>
+
+<h2>Important Note</h2>
+<p>Here's some text with <strong>bold</strong> and <em>italic</em> elements. You can also add <a href="#">links</a> to your content.</p>
+
+<hr>
+
+<h3>Image Example</h3>
+<figure>
+    <img src="https://picsum.photos/800/400" alt="Random placeholder image">
+    <figcaption>A beautiful random image from Lorem Picsum</figcaption>
+</figure>
 {% endblock %}
